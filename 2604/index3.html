@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 10px;
+    background-color: #fbff08;
+    padding: 10px;
+    border-radius: 0.5em;
+  }
+
+  .grid-container > div {
+    
+    border-radius: 0.5em;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  @media only screen and (max-width: 1024px) {
+    .item1, .item2, .item5, .item6 {
+      background-color: black;
+    }
+    .item10, .item11, .item12 {
+      background-color: white;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .item1, .item2, .item3, .item4 {
+      background-color: black;
+    }
+    .item9, .item10, .item11, .item12 {
+      background-color: white;
+    }
+}
+
+
+</style>
+
+</head>
+<body>
+
+  <div class="grid-container">
+    <div class="item1">1</div>
+    <div class="item2">2</div>
+    <div class="item3">3</div>  
+    <div class="item4">4</div>
+    <div class="item5">5</div>
+    <div class="item6">6</div>
+    <div class="item7">7</div>
+    <div class="item8">8</div>  
+    <div class="item9">9</div>
+    <div class="item10">10</div>
+    <div class="item11">11</div>
+    <div class="item12">12</div>
+
+
+  </div>
+  
+  </body>
+  </html>
