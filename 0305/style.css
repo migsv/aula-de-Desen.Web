@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-image: url(jogador.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, "Poppins", sans-serif;
+    color: white;
+}
+
+.CBC {
+    margin-top: 80px;
+    font-size: 38px;
+}
+
+.Conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, rgba(50, 50, 50, 0.7), rgba(75, 69, 69, 0.9) );
+    border-radius: 10px;
+    height: 700px;
+    width: 900px;
+}
+
+.Filtro, .CBC {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    padding: 40px;
+    color: black;
+}
+
+.Conteudo-Inicial {
+    margin-bottom: 40px;
+}
+
+.Fundo-Card {
+   display: flex;
+   flex-direction: row;
+   gap: 100px;
+}
+
+.Card-Escrito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Foto-jogadora {
+    margin-top: 40px;
+    image-resolution: 20px;
+}
+
+.Descricao {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    height: 150px;
+    width: 650px;
+    margin-bottom: 30px;
+}
+
+.Descricao-Escrito {
+    margin-left: 10px;
+    color: black;
+}
+.Nascimento {
+    margin-bottom: 20px;
+}
+

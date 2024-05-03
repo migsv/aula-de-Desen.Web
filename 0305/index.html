@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="atletas-femininas.js"></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header class="CBC">Jogadoras do Fogão!
+        <div class="Filtro">
+            <label for="idPessoa">Digite um numero</label>
+            <input type="number" id="idPessoa" name="idPessoa">
+            <button onclick="exibirDados()">Mostrar dados</button>
+        </div>
+    </header>
+
+    <main class="Conteudo">
+
+        <section class="Conteudo-Inicial">
+            <div class="Fundo-Card">
+                <div class="Foto-jogadora"><img src="" alt="Foto" id="imagem"></div>
+                <div class="Card-Escrito">
+                    <h2 class="Nome">Nome: <span id="nome"></span></h2>
+                    <h4 class="">Posição: <span id="posicao"></span></h4>
+                </div>
+            </div>
+        </section>
+
+        <section class="Conteudo-Secundario">
+            <div class="Descricao">
+                <p class="Descricao-Escrito">Descrição: <span id="descricao"></span></p>
+            </div>
+            <div class="Nascimento">
+                <p class="Nascimento Escrito">Nascimento: <span id="nascimento"></span></p>
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>
